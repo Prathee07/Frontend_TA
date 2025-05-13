@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="keywords" content="Job application,placement">
+    
+    <title>Job Application</title>
+    <link rel="icon" href="Job Application.png">
+</head>
+<body>
+     <center><h1>Job Application Form</h1></center>
+     <form action="response.txt" target="_blank">
+      <fieldset>
+        <legend>Personal Information</legend>
+          <table>
+            <tr>
+                <td><label for="first_name">First Name</label></td>
+                <td>
+                    <input type="text" name="firstname" id="first_name" required>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Last Name</label></td>
+                <td><input type="text" name="lastname"required></td>
+            </tr>
+            <tr>
+                <td><label>Date Of Birth</label></td>
+                <td><input type="date" name="DOB" value=""></td>
+            </tr>
+             <tr>
+                <td><label >Gender</label></td>
+                <td><input type="radio" name="gender" value="male" id="male"><label for="male">Male</label>
+                <input type="radio" name="gender" value="female" id="female"><label for="female">FeMale</label>
+            <input type="radio" name="gender" value="other"id="other"><label for="other">Other</label>
+        </td>
+            </tr>
+             <tr>
+                <td><label>Profile Picture</label></td>
+                <td><input type="file" name="pic"required></td>  <!-- accept="image/png,image/jpg,image/jpeg" -->
+            </tr>
+            
+        </table>
+    </fieldset>
+
+    <fieldset>
+        <legend>Contact Information</legend>
+          <table>
+            <tr>
+                <td><label >Email</label></td>
+                <td>
+                    <input type="email" name="email" required>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Phone Number</label></td>
+                <td><input type="tel" pattern="\d{10}" name="phone Number" required placeholder="10-digit number"></td>
+            </tr>
+            <tr>
+                <td><label>Address</label></td>
+                <td><textarea rows="4" cols="30" name="address" autocomplete="on"></textarea></td>
+                
+            </tr>
+            
+             <tr>
+                <td><label>Country</label></td>
+                <td><select name="Country">
+                    <option value="India" selected>India</option>
+                    <option value="Russia">Russia</option>
+                    <option value="USA">USA</option>
+                    <option value="Bangladesh">Bangladesh</option>
+                </select></td>
+            </tr>
+        </table>
+    </fieldset>
+
+     <fieldset>
+        <legend>Educational Background</legend>
+          <table>
+            <tr>
+                <td><label >Highest Qualification</label></td>
+                <td>
+                   <select name="Qualification">
+                    <option value="High School">High School</option>
+                     <option value="">PUC</option>
+                     <option value="PUC">PUC</option>
+                    <option value="Bachelor's degree">Bachelor's degree</option>
+                    <option value="Master's degree">Master's degree</option>
+                    <option value="PHD">PHD</option>
+                    <option value="Diploma">Diploma</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Specialization</label></td>
+                <td><input type="text" name="spl"></td>
+            </tr>
+            <tr>
+                <td><label>Year Of Graduation</label></td>
+                <td><input type="number" min="2000" max="2030" name="graduation_year"></td>
+            </tr>
+        </table>
+    </fieldset>
+
+      <fieldset>
+        <legend>Job Preferences</legend>
+          <table>
+            <tr>
+                <td><label >Preferred Role</label></td>
+                <td>
+                    <input type="text" name="PL">
+                </td>
+            </tr>
+            <tr>
+                <td><label>Expected Salary</label></td>
+                <td><input type="number" name="ES"></td>
+            </tr>
+            <tr>
+                <td><label>Preferred Locations</label></td>
+                <td><input type="checkbox" name="location" value="Banglore">Banglore
+                <input type="checkbox" name="location"  value="Delhi">Delhi
+            <input type="checkbox" name="location"value="Remote">Remote
+             <input type="checkbox" name="location" value="Pune">Pune
+        </td>
+            </tr>
+             <tr>
+                <td><label>Willing to Relocate?</label></td>
+                <td><input type="checkbox" name="Relocate">
+        </table>
+    </fieldset>
+
+    <fieldset>
+        <legend>Create Account</legend>
+          <table>
+            <tr>
+                <td><label >Password</label></td>
+                <td>
+                    <input type="password" name="password" required minlength="6">
+                </td>
+            </tr>
+            <tr>
+                <td><label>Confirm Password</label></td>
+                <td><input type="password" name="confirm_password" required></td>
+            </tr>
+           </table>
+           </fieldset>
+
+           <fieldset>
+        <legend>Resume</legend>
+             <label >Upload Resume(PDF only)</label>
+                    <input type="file" name="Resume" accept="application/pdf" required>
+           </fieldset>
+
+    <fieldset>
+        <legend>Agreement</legend>
+                    <input type="checkbox" required>I agree to the terms and conditions<br>
+                 <button type="submit" value="submit" >Submit Application</button>
+                                  <button type="Reset" value="reset">Reset Form</button>
+           </fieldset>
+     </form>
+    
+</body>
+</html>
+
+
