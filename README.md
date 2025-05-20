@@ -71,7 +71,10 @@ font-size: if u want to chnage for h1 u can do  32 px is h1 so u can increse to 
 
 **for image:**
 border-radius:2px;
-
+                    *****************************DAY 3(day9)**********************************************
+differebce between universal selector and body is that universal selector applies styles for all the elments no matter what but body doesnt apply to all the tags it respects privacy 
+for example if u apply border or for input area=text for this background color if u apply see there is a difference
+in border: 2px solid/dotted/dashed/double black;
 
 
 
