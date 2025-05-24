@@ -1,4 +1,4 @@
-                                            ********************************************day1 css*********************************************************************
+                                                                                     DAY1 CSS
 ******iframe tags:*****
 used to embed one website inside another website 
 
@@ -58,23 +58,42 @@ attribute
 pseudo class
 psedo elements
 
-
-
-
-
-
 **for texts:**
 font-weight:thickness (100-900)
 font-family:
 font-size: if u want to chnage for h1 u can do  32 px is h1 so u can increse to 35px;
 
-
 **for image:**
 border-radius:2px;
-                    *****************************DAY 3(day9)**********************************************
+
+                                                           *****************************DAY 3(day9)**********************************************
+                                                           
 differebce between universal selector and body is that universal selector applies styles for all the elments no matter what but body doesnt apply to all the tags it respects privacy 
 for example if u apply border or for input area=text for this background color if u apply see there is a difference
 in border: 2px solid/dotted/dashed/double black;
+we can aslo combine such as element.class or element#id or .class#id
+
+                                                     ***************************************DAY 4(DAY 10)***********************************************
+ Typography--cdn fonts for any free text style
+for gradient color of text:::  
+  h1{
+            background: RGB(254 195 0);
+background: linear-gradient(90deg, rgba(254, 195, 0, 1) 7%, rgba(244, 100, 48, 1) 54%, rgba(197, 72, 198, 1) 100%);
+        background-clip:text;
+        color:transparent;
+}
+HD(high definition)----720 px
+full HD-1080 px
+Quad HD---2k resolution ----1440 px(mbl now)
+U HD(ultra)----2160 px(TV)
+today 8 k tv also
+
+
+
+
+
+
+
 
 
 
