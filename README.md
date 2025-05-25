@@ -1,4 +1,4 @@
-                                                                                     DAY1 CSS
+                                                             ************************* DAY1 CSS*************************
 ******iframe tags:*****
 used to embed one website inside another website 
 
@@ -74,7 +74,7 @@ in border: 2px solid/dotted/dashed/double black;
 we can aslo combine such as element.class or element#id or .class#id
 
                                                      ***************************************DAY 4(DAY 10)***********************************************
- Typography--cdn fonts for any free text style
+ Typography--cdn fonts for any free text style/google fonts (how can we change the styles)
 for gradient color of text:::  
   h1{
             background: RGB(254 195 0);
@@ -85,8 +85,29 @@ background: linear-gradient(90deg, rgba(254, 195, 0, 1) 7%, rgba(244, 100, 48, 1
 HD(high definition)----720 px
 full HD-1080 px
 Quad HD---2k resolution ----1440 px(mbl now)
-U HD(ultra)----2160 px(TV)
-today 8 k tv also
+U HD(ultra)----2160 px(TV) 4k 
+today 8 k tv also 
+                                     ************************************DAY5(day 11)******************************
+child sibling 
+h2>child
+h2 descedent
+h2~general siblings
+h2+immediate sibling
+these are called combinators  whre we can establish the relation between the two tags
+
+Attribute selectors
+img[src]----simple attr
+img[src="f.jpeg"]--------exact matc
+partial match
+
+
+                                                 ***********************DAY6(DAY12)*************************************
+
+                                                 
+
+
+            
+                                                        
 
 
 
