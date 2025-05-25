@@ -87,6 +87,7 @@ full HD-1080 px
 Quad HD---2k resolution ----1440 px(mbl now)
 U HD(ultra)----2160 px(TV) 4k 
 today 8 k tv also 
+
                                      ************************************DAY5(day 11)******************************
 child sibling 
 h2>child
